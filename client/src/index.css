@@ -1,0 +1,52 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Optional: Footer style */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
+
+/* Layout and typography */
+.filter-section {
+  background-color: #f9f9f9;
+}
+
+.icon-btn {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s ease;
+}
+
+.icon-btn.active-icon {
+  color: #1890ff;
+}
+
+.view-toggle {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* Fix Modal form spacing */
+.ant-modal-body .ant-form-item {
+  margin-bottom: 16px;
+}
